@@ -1,0 +1,91 @@
+/* Scanea tus apuntes CSS (2da Pagina) */
+
+/* Header Section */
+.header {
+  background-color:white;
+  padding: 25px;
+  position: sticky;
+  width: 100%;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CSS Utilizado en las 3 Sections */
+.apuntes-back {
+  background-color: white;
+  border: solid black 1px;
+  padding: 5px;
+}
+
+.title-apuntes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.75rem;
+}
+
+.text-apuntes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+  
+.text-materiales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.file-loader{
+  display:flex ;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer Section */
+.footer{
+  background-color: white;
+  padding: 25px;
+  width: 100%;
+}
+
+.redes-title {
+  background-color:white;
+  text-align: center;
+  padding: 14px;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.footer-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
